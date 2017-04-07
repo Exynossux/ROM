@@ -1,0 +1,4 @@
+/hidden/Common_app/cewe-stub.apk
+/hidden/Common_app/hrs_and_playb2c_6.4.2-build32-release.apk
+/hidden/Common_app/kaufda-preinstall-stub-release.apk
+/hidden/Common_app/MyGalaxy-stub_11012017.apk

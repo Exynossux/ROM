@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-T810</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>T810DBT</CSCName>
+	<CSCVersion>2DQCL</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/DBT/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

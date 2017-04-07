@@ -1,0 +1,69 @@
+<SamsungMobileLanguage>
+   <Country>Italy</Country>
+   <CountryISO>it</CountryISO>
+   <SalesCode>XEI</SalesCode>
+   <LanguageSet>
+		<NonDisplay>
+		en_CA;en_PH;en_ZG;
+ar_IL;
+as_IN;
+az_AZ;
+be_BY;
+bn_BD;bn_IN;
+bs_BA;
+fa_IR;
+fr_BE;fr_CA;
+gu_IN;
+hi_IN;
+hy_AM;
+in_ID;
+iw_IL;
+ja_JP;
+ka_GE;
+kk_KZ;
+km_KH;
+kn_IN;
+ky_KG;
+lo_LA;
+ml_IN;
+mn_MN;
+mr_IN;
+ms_MY;
+my_MM;my_ZG;
+ne_NP;
+or_IN;
+pa_IN;
+pl_SP;
+si_LK;
+sq_AL;
+ta_IN;
+te_IN;
+tg_TJ;
+th_TH;
+tk_TM;
+tl_PH;
+uk_UA;
+ur_PK;
+uz_UZ;
+vi_VN;
+zh_CN;zh_HK;zh_TW;pa-Guru-IN;pa-Arab-PK;
+az-Latn-AZ;bs-Latn-BA;fil-PH;in-ID;uz-Cyrl-UZ;uz-Latn-UZ;iw-IL;zh-Hans-HK;zh-Hans-SG;zh-Hans-MO;zh-Hant-TW;zh-Hant-HK;zh-Hant-MO;tg-Cyrl-TJ;he_IL;id_ID;
+ 	</NonDisplay>
+		<Suggested>
+		</Suggested>
+	    <Display>
+		en_GB;en_US;en_AU;en_IE;en_NZ;en_ZA;ko_KR;de_AT;de_CH;de_DE;fr_FR;fr_CH;
+bg_BG;cs_CZ;da_DK;el_GR;es_ES;et_EE;fi_FI;ga_IE;hr_HR;hu_HU;is_IS;it_IT;
+lt_LT;lv_LV;mk_MK;nb_NO;nl_NL;nl_BE;pl_PL;pt_PT;ro_RO;sr_RS;sv_SE;tr_TR;
+ca_ES;eu_ES;gl_ES;ru_RU; sk_SK; sl_SI;
+                   es_US; pt_BR;zh_CN;ar_AE;
+          </Display>
+          <Input>
+                <SupportList>
+        	en_GB;en_US;ca;cs;da;de;et;es;eu;el;fr;gl;hr;it;is;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;ko;bg;zh_CN;ar;
+                </SupportList>
+                <EnableList>
+                </EnableList>
+          </Input>
+   </LanguageSet>
+</SamsungMobileLanguage>

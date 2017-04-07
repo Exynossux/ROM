@@ -1,0 +1,126 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<resources>
+    <!-- Hardware related features -->
+    <local name="SUPPORT_HEART_RATE_SENSOR_SHUTTER" value="false" />
+    <local name="SUPPORT_SVIEW_COVER_CAMERA" value="false" />
+    <local name="SUPPORT_CAMERA_ESD_CHECK" value="true" />
+
+    <!-- Camera related features -->
+    <local name="CAMERA_SCREEN_FLASH_VI" value="false" />
+    <local name="SUPPORT_PHASE_AF" value="false" />
+    <local name="SUPPORT_FACE_PRIORITY_AF" value="false" />
+    <local name="SUPPORT_FAST_REACTIVE_AF" value="false" />
+    <local name="SUPPORT_OBJECT_TRACKING_AF" value="false" />
+    <local name="SUPPORT_MULTI_AF" value="false" />
+    <local name="SUPPORT_COMPANION_CHIP" value="false" />
+
+    <!-- Camera sensor features -->
+    <local name="CAMERA_MAX_ISO" value="800" />
+    <local name="EXPOSURE_COMPENSATION_STEP" value="0.1f" />
+    <local name="CAMCORDER_FRONT_ANTISHAKE" value="false" />
+    <local name="CAMCORDER_ANTISHAKE_DEFAULT_ON" value="false"/>
+    <local name="CAMCORDER_REAR_ANTISHAKE_QHD" value="false"/>
+
+    <!-- Shooting mode variation features -->
+    <local name="CAMERA_LIVE_BEAUTY_SHAPECORRECTION" value="false" />
+    <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="false" />
+
+    <!-- Etc. features -->
+    <local name="CAMERA_QUICK_LAUNCH" value="false" />
+    <local name="SUPPORT_VOICE_COMMAND" value="false" />
+    <local name="DEFAULT_FRONT_CAMERA_VOICE_COMMAND" value="0" />
+    <local name="SUPPORT_FLOATING_CAMERA_BUTTON" value="true" />
+
+    <local name="CAMERA_PREVIEW_FIT_TO_FULL_SCREEN" value="true" />
+    <local name="FIXED_TYPE_SIDE_QUICK_SETTING_MENU" value="true" />
+    <local name="COVER_CAMERA_RECORDING" value="false" />
+    <local name="SUPPORT_MOTION_PHOTO" value="false" />
+    <local name="SUPPORT_FRONT_SETTING_AUTO_SCROLL" value="false" />
+
+    <!-- Performance features -->
+    <local name="CAMERA_ENABLE_THUMBNAILPICTURE_CALLBACK" value="false" />
+    <local name="SWITCH_CAMCORDER_DELAY" value="100" />
+
+    <!-- Shootingmode - BACK -->
+    <local name="BACK_CAMERA_SHOOTINGMODE_AUTO" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_PRO_LITE" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_RICH_TONE" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_PANORAMA_SHOT" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_VIRTUAL_SHOT" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_SHOT_AND_MORE" value="true" />
+    <local name="BACK_CAMERA_SHOOTINGMODE_DUAL" value="true" />
+
+    <!-- Shootingmode - FRONT -->
+    <local name="FRONT_CAMERA_SHOOTINGMODE_SELFIE" value="true" />
+    <local name="FRONT_CAMERA_SHOOTINGMODE_VIRTUAL_SHOT" value="true" />
+
+    <!-- Capture resolution - BACK -->
+    <local name="BACK_CAMERA_RESOLUTION_4BY3_LARGE" value="3264x2448" />
+    <local name="BACK_CAMERA_RESOLUTION_4BY3_MEDIUM" value="2560x1920" />
+    <local name="BACK_CAMERA_RESOLUTION_16BY9_LARGE" value="3264x1836" />
+    <local name="BACK_CAMERA_RESOLUTION_16BY9_MEDIUM" value="2560x1440" />
+    <local name="BACK_CAMERA_RESOLUTION_1BY1_LARGE" value="2448x2448" />
+    <local name="BACK_CAMERA_RESOLUTION_1BY1_MEDIUM" value="1920x1920" />
+    <local name="BACK_CAMERA_PICTURE_DEFAULT_RESOLUTION" value="3264x2448" />
+
+    <!-- Capture resolution - FRONT -->
+    <local name="FRONT_CAMERA_RESOLUTION_4BY3_LARGE" value="1440x1080" />
+    <local name="FRONT_CAMERA_RESOLUTION_16BY9_LARGE" value="1920x1080" />
+    <local name="FRONT_CAMERA_RESOLUTION_1BY1_LARGE" value="1072x1072" />
+    <local name="FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION" value="1920x1080" />
+
+    <!-- Resolution for shooting mode -->
+    <local name="BURST_PANORAMA_RESOLUTION" value="1440x1080" />
+
+    <!-- Recording resolution - BACK -->
+    <local name="BACK_CAMERA_RECORDING_DEFAULT_RESOLUTION" value="1920x1080" />
+    <local name="BACK_CAMCORDER_RESOLUTION_2560X1440" value="true" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1920X1080" value="true" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1280X720" value="true" />
+    <local name="BACK_CAMCORDER_RESOLUTION_640X480" value="true" />
+
+    <!-- Recording resolution - FRONT -->
+    <local name="FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION" value="1920x1080" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1920X1080" value="true" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1280X720" value="true" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_640X480" value="true" />
+
+    <!-- Recording picture size - BACK -->
+    <local name="BACK_CAMCORDER_RESOLUTION_2560X1440_PICTURE_WIDTH" value="0" />
+    <local name="BACK_CAMCORDER_RESOLUTION_2560X1440_PICTURE_HEIGHT" value="0" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1920X1080_PICTURE_WIDTH" value="3264" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1920X1080_PICTURE_HEIGHT" value="1836" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1280X720_PICTURE_WIDTH" value="3264" />
+    <local name="BACK_CAMCORDER_RESOLUTION_1280X720_PICTURE_HEIGHT" value="1836" />
+    <local name="BACK_CAMCORDER_RESOLUTION_640X480_PICTURE_WIDTH" value="3264" />
+    <local name="BACK_CAMCORDER_RESOLUTION_640X480_PICTURE_HEIGHT" value="2448" />
+    <local name="BACK_CAMCORDER_RESOLUTION_320X240_PICTURE_WIDTH" value="3264" />
+    <local name="BACK_CAMCORDER_RESOLUTION_320X240_PICTURE_HEIGHT" value="2448" />
+
+    <!-- Recording picture size - FRONT -->
+    <local name="FRONT_CAMCORDER_RESOLUTION_1920X1080_PICTURE_WIDTH" value="1920" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1920X1080_PICTURE_HEIGHT" value="1080" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1280X720_PICTURE_WIDTH" value="1920" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1280X720_PICTURE_HEIGHT" value="1080" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_640X480_PICTURE_WIDTH" value="1440" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_640X480_PICTURE_HEIGHT" value="1080" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_320X240_PICTURE_WIDTH" value="1440" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_320X240_PICTURE_HEIGHT" value="1080" />
+
+    <!-- Recording preview size -->
+    <local name="CAMCORDER_RESOLUTION_1280X720_PREVIEW_WIDTH" value="1920" />
+    <local name="CAMCORDER_RESOLUTION_1280X720_PREVIEW_HEIGHT" value="1080" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1280X720_PREVIEW_WIDTH" value="1920" />
+    <local name="FRONT_CAMCORDER_RESOLUTION_1280X720_PREVIEW_HEIGHT" value="1080" />
+
+    <!-- Camera preview size features -->
+    <local name="FRONT_CAMERA_SQUARE_PREVIEW_WIDTH_HEIGHT" value="1072" />
+    <local name="CAMERA_FULL_SCREEN_PREVIEW_WIDTH" value="2730" />
+    <local name="CAMERA_FULL_SCREEN_PREVIEW_HEIGHT" value="1536" />
+
+    <!-- Dual Flip photo -->
+    <local name="CAMERA_SUPPORT_FLIP_PHOTO" value="false" />
+
+	<!-- Support multi user for ShotAndMore -->
+	<local name="SUPPORT_MULTI_USER_MODE" value="true" />
+</resources>
