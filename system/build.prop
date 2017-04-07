@@ -88,7 +88,7 @@ media.enable-commonsource=true
 persist.sys.storage_preload=1
 
 # WIFI model
-ro.carrier=wifi-only
+#ro.carrier=wifi-only
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
@@ -130,7 +130,6 @@ ro.config.ringtone_2=Basic_Bell.ogg
 ro.config.notification_sound_2=S_Charming_Bell.ogg
 keyguard.no_require_sim=true
 ro.security.icd.flagmode=multi
-security.ASKS.policy_version=000000
 ro.com.google.clientidbase=android-samsung
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
