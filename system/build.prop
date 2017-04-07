@@ -71,7 +71,7 @@ ro.hwui.text_large_cache_height=2048
 # system.prop for universal5433
 #
 ro.arch=exynos5433
-persist.demo.hdmirotationlock=false
+persist.hdmi.hdcp_enabled=1
 
 # LCD Density
 ro.sf.lcd_density=480
@@ -144,7 +144,7 @@ dalvik.vm.isa.arm.features=default
 ro.config.knox=0
 ro.config.tima=0
 ro.config.timaversion=0
-ro.config.iccc_version=1.0
+ro.config.iccc_version=0
 ro.kernel.qemu=0
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
@@ -152,3 +152,7 @@ ro.build.version.sem=2402
 ro.build.version.sep=80000
 ro.expect.recovery_id=0xde352673a0b5c027098212cfa579719e20f98da3000000000000000000000000
 
+# Debug
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
