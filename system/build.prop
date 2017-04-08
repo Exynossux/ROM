@@ -39,7 +39,7 @@ ro.build.product=gts210wifi
 # Do not try to parse description, fingerprint, or thumbprint
 ro.build.description=gts210wifixx-user 7.0 NRD90M T810XXU2DQCL release-keys
 ro.build.fingerprint=samsung/gts210wifixx/gts210wifi:7.0/NRD90M/T810XXU2DQCL:user/release-keys
-ro.build.characteristics=tablet,emulator
+ro.build.characteristics=phone
 # Samsung Specific Properties
 ro.build.PDA=T810XXU2DQCL
 ro.build.official.release=false
@@ -52,23 +52,24 @@ ro.chipname=exynos5422
 #
 # HWUI_BUILD_PROPERTIES
 #
-ro.hwui.texture_cache_size=96
-ro.hwui.layer_cache_size=64
-ro.hwui.path_cache_size=16
+ro.hwui.texture_cache_size=50   
+ro.hwui.layer_cache_size=34
+ro.hwui.path_cache_size=10
 ro.hwui.texture_cache_flushrate=0.4
 ro.hwui.shape_cache_size=4
 ro.hwui.gradient_cache_size=2
 ro.hwui.drop_shadow_cache_size=6
-ro.hwui.r_buffer_cache_size=8
+ro.hwui.r_buffer_cache_size=4
 ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
-ro.hwui.text_large_cache_width=4096
-ro.hwui.text_large_cache_height=2048
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=1024
+ro.hwui.fbo_cache_size=16
 #
 # from device/samsung/gts210wifi/system.prop
 #
 #
-# system.prop for universal5433
+# system.prop for universal5422
 #
 ro.arch=exynos5422
 persist.hdmi.hdcp_enabled=1
@@ -85,32 +86,36 @@ ro.slook.ver=1
 # Multimedia property for Smart View
 media.enable-commonsource=true
 
-persist.sys.storage_preload=1
-
-# WIFI model
-#ro.carrier=wifi-only
+# VQG - User Agent Header for Video-Streaming Client
+net.streaming.rtsp.uaprof=http://wap.samsungmobile.com/uaprof/
+  
+# SAMP_SPCM
+sys.config.samp_spcm_enable=true
+sys.config.spcm_db_enable=true
+sys.config.spcm_db_launcher=true
+sys.config.spcm_preload_enable=true
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
 ro.astcenc.astcsupport=1
 ro.mct.compressiontype=ETC1
-ro.config.dmverity=True
-ro.config.kap=true
-ro.radio.noril=yes
-ro.carrier=unknown
-ro.product.first_api_level=21
-ro.opengles.version=196610
+ro.config.tima=0
+ro.config.timaversion=0
+ro.telephony.default_network=9
+persist.radio.sib16_support=0
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.dex2oat-filter=speed
+ro.opengles.version=196608
 ro.sf.lcd_density=320
-debug.hwc.otf=1
-debug.hwc.winupdate=1
+drm.service.enabled=true
 ro.hdcp2.rx=tz
 ro.secwvk=220
 ro.securestorage.support=false
 dalvik.vm.heapstartsize=8m
-dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapgrowthlimit=128m
 dalvik.vm.heapsize=512m
 dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=512k
+dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 ro.build.scafe.version=2017A
 ro.error.receiver.default=com.samsung.receiver.error
@@ -141,8 +146,6 @@ persist.sys.dalvik.vm.lib.2=libart.so
 dalvik.vm.isa.arm.variant=cortex-a15
 dalvik.vm.isa.arm.features=default
 ro.config.knox=0
-ro.config.tima=0
-ro.config.timaversion=0
 ro.config.iccc_version=0
 ro.kernel.qemu=0
 net.bt.name=Android
