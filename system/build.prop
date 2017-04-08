@@ -22,7 +22,7 @@ ro.product.model=SM-T810
 ro.product.brand=samsung
 ro.product.name=gts210wifixx
 ro.product.device=gts210wifi
-ro.product.board=universal5433
+ro.product.board=universal5422
 # ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
 # use ro.product.cpu.abilist instead.
 ro.product.cpu.abi=armeabi-v7a
@@ -42,11 +42,11 @@ ro.build.fingerprint=samsung/gts210wifixx/gts210wifi:7.0/NRD90M/T810XXU2DQCL:use
 ro.build.characteristics=tablet,emulator
 # Samsung Specific Properties
 ro.build.PDA=T810XXU2DQCL
-ro.build.official.release=true
+ro.build.official.release=false
 ro.config.rm_preload_enabled=0
 ro.build.changelist=10949424
 ro.product_ship=true
-ro.chipname=exynos5433
+ro.chipname=exynos5422
 # end build properties
 
 #
@@ -70,7 +70,7 @@ ro.hwui.text_large_cache_height=2048
 #
 # system.prop for universal5433
 #
-ro.arch=exynos5433
+ro.arch=exynos5422
 persist.hdmi.hdcp_enabled=1
 
 # LCD Density
